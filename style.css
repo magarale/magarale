@@ -1,0 +1,38 @@
+
+		/**{
+			background-color: green;
+		}*/
+		.par{
+			font-size: 20px;
+			font-color
+			color: white;
+			background-color: rgb(20,200,150);
+			text-align: center;
+			padding-left: 10px;
+			
+		}
+			#bold{
+				
+			
+				font-size: 500;
+				margin:40px;
+			}
+
+		.nav{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: skyblue;
+			overflow: hidden;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			padding:10px;
+			text-decoration: none;
+			color: white;
+			display:block;
+			text-align: center;
+		}
+

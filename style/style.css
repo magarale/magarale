@@ -1,5 +1,28 @@
+	.post{
+		padding: 20px;
+	}
+
+	body{
+		}
+
+	.form{
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+	}
+	.name{
+		font-size: 20px;
+		border: 30px;
+	}
+	.ram{
+		padding: 20px;
+
+	}
+	#role{
+
+	}
 	.full-width{
-		opacity: 200px;
+		opacity: 0.3px;
 	}
 	.par{
 			font-size: 20px;
@@ -24,6 +47,7 @@
 			overflow: hidden;
 	}
 }
+/** css for navigation bar **/
 		.nav{
 			list-style-type: none;
 			margin: 10px 30px 30px 40px;

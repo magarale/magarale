@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+	<script src="js/external.js"></script>
+</head>
+<body>
+
+	<div class="form">
+		<form method="post" action="#" >	
+			
+				<label>Name</label><br>
+				<input type="text" name="name" id="name"placeholder="Enter your Name"><br>
+			
+			
+
+			<label>E-mail</label><br>
+			<input type="text"  name="email" id="email" placeholder="Enter yout e-mail"><br>
+
+
+			<label>Password</label><br>
+			<input type="password" name="name" id="password" placeholder="Enter your password"><br>
+
+`			<label>Mobile Number</label><br>
+			<input type="number" name="number" id="mobile" placeholder="Enter your Mobile Number"><br>
+
+			<label>D.o.B</label><br>
+			<input type="Date" name="name"><br>
+
+			<label name="Role" id="Role">Role</label><br>
+			<select>
+				<option>--Choose one--</option>
+				<option value="SuperAddmin">SuperAdmin</option>
+				<option value="Admin">Admin</option>
+				<option value="user">user</option>
+				<option value="Member">Member</option>
+			</select><br>
+
+			<label>Gender</label><br>
+			<input type="radio" name="Male">Male
+			<input type="radio" name="Female">Female
+			<input type="radio" name="other">other<br>
+
+			<label>skills</label><br>
+			<input type="checkbox" name="php">php
+			<input type="checkbox" name="css">css
+			<input type="checkbox" name="javascript">javascript<br>
+
+			<label>Remarks</label><br>
+			<textarea name="Remarks" id="Remarks" rows="3"></textarea><br>
+			<button class="ram" type="Submmit" name="name">Submmit here</button>
+		</form>
+
+	</div>
+
+	<div class="row">
+		<p id="current_date"></p>
+	<button id="displaydate" onclick="getDate()">Click to show Date </button><br>
+	
+
+	<p id="getname"></p>
+	<button onclick="getEmail()">show name</button><br>
+
+	
+	<p id="getemail"></p>
+	<button onclick="getEmail()">show email</button><br>
+
+
+	<p id="getpassword"></p>
+	<button onclick="getEmail()">show password</button><br>
+
+	<p id="getmobile"></p>
+	<button onclick="getEmail()">show mobile number</button><br>
+
+
+	<p id="getremarsk"></p>
+	<button onclick="getEmail()">show remarks</button><br>
+
+	
+	</div>
+</body>
+</html>

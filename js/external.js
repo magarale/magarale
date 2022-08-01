@@ -9,29 +9,32 @@ function getDate() {
 	
 	var par = document.getElementById("current_date");
 	console.log(par)
+
 	par.innerHTML = date;
 	par.style.color ="red";
 
 			 	
 }
 
-function getEmail() {
+// <!- form javascript code-!>
+function getJs() {
 	var name = document.getElementById("name").value;
-	document.getElementById("getname").innerHTML ="Your name is:" +name;
+	 document.getElementById("getName").innerHTML = "Your name is:" +name;
 
-	var email = document.getElementById("email").value;
-	document.getElementById("getmail").innerHTML="Your email is:" +email;
-
+	
 	var password = document.getElementById("password").value;
-	document.getElementById("getpassword").innerHTML ="Your password is:"+ password;
+	 document.getElementById("getPassword").innerHTML = "Your password is:" +password;
 
 	var mobile = document.getElementById("mobile").value;
-	document.getElementById("getmobile").innerHTML ="Your mobile is:"+ mobile;
+	 document.getElementById("getMobile").innerHTML = "Your mobile is:" +mobile;
 
-	var gender = document.getElementById("gender").value;
-	document.getElementById("getgender").innerHTML ="Your gender is:"+ gender;
 
 	var remarks = document.getElementById("remarks").value;
-
-	 document.getElementById("getremarks").innerHTML ="Your remarks is:"+ remarks;
+	 document.getElementById("getRemarks").innerHTML = "Your remarks is:" +remarks;
 }
+
+ function getEmail() {
+ 	var email = document.getElementById("email").value;
+	 document.getElementById("getEmail").innerHTML = "Your email is:" +email;
+
+ }

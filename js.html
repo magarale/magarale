@@ -3,6 +3,7 @@
 <head>
 	<title>hello</title>
 	<script src="js/external.js"></script>
+	<
 	
 </head>
 <body>
@@ -78,8 +79,18 @@
 	<p id="getRemarks"></p>
 	<button onclick="getJs()">show remarks</button><br>
 
-	
+	<p id="getdata"></p>
+	<button id="displayperson" onclick="displaydata()">click here to display person data</button><br>
+
+	<button id="printwindow" onclick="window.print()">click to get print the window</button>
 	</div>
-	
+
+	<div class="javascript">
+		<label>Enter your age</label>
+		<input type="number" name="age" id="age" placeholder="enter your age"><br>
+		<button onclick="displayMessage()">Click to check eligiblity</button>
+		<p id="message"></p>
+		<p id="day"></p>
+		<button onclick="displayName5times()">click to dispaly name 5 times</button>
 </body>
 </html>

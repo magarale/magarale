@@ -1,0 +1,49 @@
+ body{
+ 	background-color: rgb(205,1,150);
+ }
+
+ .nistf{ 
+ 	padding: 70px;
+ 	margin: 70px;
+ 	text-align: center;
+ 	background-color: rgb(1,250,225);
+ 	border: 20px 30px 40px 20px;
+ }
+#Submmit{
+	overflow: hidden;
+	font-size: 20px;
+	border-radius: 20px;	
+	text-decoration: none;
+
+} 
+.register{
+	padding: 70px;
+	margin: 70px;
+	text-align: center;
+	background-color: yellow;
+}
+
+#reg{
+	font-size: 50px;
+}
+
+
+
+/*index css start*/
+
+
+
+#page{
+	font-size: 50px;
+}
+#LogIn{
+		border-radius: 20px;
+
+}
+/*table css start*/
+
+#table{
+	border: 20px;
+	border-radius: 30px;
+	
+}

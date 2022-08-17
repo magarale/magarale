@@ -1,49 +1,51 @@
- body{
- 	background-color: rgb(205,1,150);
- }
-
- .nistf{ 
- 	padding: 70px;
- 	margin: 70px;
- 	text-align: center;
- 	background-color: rgb(1,250,225);
- 	border: 20px 30px 40px 20px;
- }
-#Submmit{
-	overflow: hidden;
-	font-size: 20px;
-	border-radius: 20px;	
-	text-decoration: none;
-
-} 
-.register{
-	padding: 70px;
-	margin: 70px;
+/*home css start*/
+div.count1{
+	background-color: skyblue;
 	text-align: center;
-	background-color: yellow;
 }
-
-#reg{
+#count{
+	color: white;
+}
+h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h2{
+	margin-bottom: 20px;
 	font-size: 50px;
 }
-
-
-
-/*index css start*/
-
-
-
-#page{
-	font-size: 50px;
+/*nav css start*/
+div.navbar{
+	background-color: skyblue;
+	opacity: 0.5px;
+	padding: 20px;
+	text-align: center;
+	padding-left: 400px;
 }
-#LogIn{
-		border-radius: 20px;
+li{
+	text-decoration : none;
+	float: left;
+}
+li,a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
 
 }
-/*table css start*/
-
-#table{
-	border: 20px;
-	border-radius: 30px;
-	
+li,a:hover{
+	color: maroon;
+	background-color: pink;
+}
+li,a:active{
+	color: red;
+}
+/*body css start*/
+body{
+	background-color: powderblue;
+	background-image: url("images/sam.png");
+	padding: 30px;
+	margin: 40px;
+	text-align: center;
+	font-weight: bold;
+	background-size: cover;
 }

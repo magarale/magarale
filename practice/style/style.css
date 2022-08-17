@@ -1,0 +1,78 @@
+ body{
+ 	background-color: rgb(205,1,150);
+ }
+/*log in css*/
+ .nistf{ 
+ 	padding: 70px;
+ 	margin: 70px;
+ 	text-align: center;
+ 	background-color: rgb(1,250,225);
+ 	border: 20px 30px 40px 20px;
+ }
+
+#Submmit{
+	font-size: 20px;
+	border-radius: 5px;	
+	
+
+} 
+.register{
+	padding: 70px;
+	margin: 70px;
+	text-align: center;
+	background-color: violet;
+
+}
+
+#reg{
+	font-size: 40px;
+	border-radius: 9px;
+	/*text-decoration: none;*/
+	color: white;
+}
+
+.button{
+
+	text-decoration: none;
+	background-color: skyblue;
+	color: white;	
+	border:none;
+
+}
+
+.button1{
+	background-color: pink;
+	text-decoration-style: red;
+	border:none;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+#page{
+	font-size: 15px;	
+	border-radius: 5px;
+
+}
+#LogIn{
+		border-radius: 5px;
+		font-size: 15px;	
+		
+
+}
+
+
+/*table css start*/
+
+table, th, td {
+  border: 1px solid;
+  border-style: solid black;
+  border-collapse: collapse;;
+}
+table{
+	width: 100%;
+}
